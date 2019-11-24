@@ -1,7 +1,7 @@
 export default function() {
   const defaultProps = {
     easing: 'cubic-bezier(0.5, 0, 0, 1)',
-    distance: '30px',
+    distance: '100px',
     duration: 1000,
     desktop: true,
     mobile: true

@@ -37,6 +37,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
+    "lax.js": "^1.2.5",
     "popper.js": "^1.16.0",
     "tilt.js": "^1.2.1"
   }
