@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94c15c05-6508-4d43-a190-e5b91aee94c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/sr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/abstracts/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/sections/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/sections/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/sections/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/sections/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/sections/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/sections/_hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="151" column="45" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
+            <state relative-caret-position="104">
+              <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -74,10 +64,10 @@
         <option value="$PROJECT_DIR$/src/style/main.scss" />
         <option value="$PROJECT_DIR$/src/style/abstracts/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/style/sections/_contact.scss" />
-        <option value="$PROJECT_DIR$/src/template.html" />
         <option value="$PROJECT_DIR$/src/style/sections/_polygon.scss" />
         <option value="$PROJECT_DIR$/src/style/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/dist/main.e9844f7d61bb164ca2b0.bundle.js" />
+        <option value="$PROJECT_DIR$/src/template.html" />
       </list>
     </option>
   </component>
@@ -174,18 +164,18 @@
       <workItem from="1574464841704" duration="1844000" />
       <workItem from="1574466752880" duration="1147000" />
       <workItem from="1574495340758" duration="7070000" />
-      <workItem from="1574539567379" duration="20539000" />
+      <workItem from="1574539567379" duration="21722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33180000" />
+    <option name="totallyTimeSpent" value="34363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2761394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2761394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -202,7 +192,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3574297" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3574297" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -414,8 +404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="151" column="45" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
+        <state relative-caret-position="104">
+          <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#i#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
