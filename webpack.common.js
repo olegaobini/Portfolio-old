@@ -1,4 +1,5 @@
 const Webpack = require('webpack');
+
 module.exports = {
   entry: {
     vendor: './src/vendor.js',
@@ -28,7 +29,7 @@ module.exports = {
   plugins: [
     new Webpack.ProvidePlugin({
       $: 'jquery',
-      jQuery: 'jquery'
+      jQuery: 'jquery',
     })
   ]
 }

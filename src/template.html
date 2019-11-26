@@ -19,10 +19,10 @@
 
     <!-- Put here your site title -->
     <title>Olega Obini | Portfolio</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <!-- Add some coding keywords below, Ex: (javascript, your username, etc) -->
     <meta name="keywords" content="[username], [Olega Obini], Java" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <!-- Improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Olega Obini | Developer" />
 
     <!-- Required librarys -->
     <link
@@ -45,21 +45,23 @@
 
     <div id="hero" class="jumbotron">
       <div class="container">
-        <h1 class="hero-title" >
-          Hi, my name is <span class="text-color-main">Olega Obini</span>
-          <br />
-          welcome to my portfolio
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-        </p>
+        <section class="lax"  data-lax-preset="fadeOut-1">
+          <h1 class="hero-title" >
+            Hi, my name is <span class="text-color-main">Olega Obini</span>
+            <br />
+            welcome to my portfolio
+          </h1>
+          <p class="hero-cta" class="load-hidden" >
+            <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+          </p>
+        </section>
       </div>
     </div>
 
     <section id="polygon-top" >
     </section>
 
-    <section id="about" class="lax"  data-lax-preset="eager">
+    <section id="about" class="lax"  data-lax-preset="eager-120">
       <div class="container">
         <h2 class="section-title">
           About me
@@ -91,7 +93,7 @@
                 fuga numquam voluptate architecto itaque molestiae.
               </p>
               <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="./resume.html">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="resume.html">
                   View Resume
                 </a>
               </span>
@@ -213,17 +215,18 @@
     </section>
     <!-- /END Projects Section -->
 
-    <section id="polygon-bottom" class="lax" data-lax-preset="lazy">
+    <section id="polygon-bottom" class="lax" data-lax-preset="lazy-130">
     </section>
 
     <section id="contact" class="lax">
       <div class="container">
         <h2 class="section-title">
-          Contact
+          want to get in touch?
         </h2>
         <div class="contact-wrapper">
           <p class="contact-wrapper__text">
                 obiniolega@gmail.com
+
           </p>
           <a
             target="_blank"
@@ -264,54 +267,33 @@
             class="fa fa-heart px-2"
           ></i>
           by
-          <a href="https://github.com/olegaobini" target="_blank" class="lax" data-lax-preset="crazy">Olega Obini</a>
-          </a>
+          <a href="#!" target="_blank" class="lax" data-lax-preset="crazy">Olega Obini</a>
         </p>
-
-<!--        <p class="mt-3 pt-3">-->
-<!--          <a-->
-<!--            class="github-button"-->
-<!--            href="https://github.com/cobidev/simplefolio/fork"-->
-<!--            data-icon="octicon-repo-forked"-->
-<!--            data-size="large"-->
-<!--            data-show-count="true"-->
-<!--            aria-label="Fork ntkme/github-buttons on GitHub"-->
-<!--            >Fork</a-->
-<!--          >-->
-<!--          <a-->
-<!--            class="github-button"-->
-<!--            href="https://github.com/cobidev/simplefolio"-->
-<!--            data-icon="octicon-star"-->
-<!--            data-size="large"-->
-<!--            data-show-count="true"-->
-<!--            aria-label="Star cobidev/simplefolio on GitHub"-->
-<!--            >Star</a-->
-<!--          >-->
-<!--        </p>-->
       </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+
       <script>
+
           window.onload = function() {
-              lax.setup() // init
+              lax.setup(); // init
 
               const updateLax = () => {
-                  lax.update(window.scrollY)
+                  lax.update(window.scrollY);
                   window.requestAnimationFrame(updateLax)
-              }
+              };
 
               window.requestAnimationFrame(updateLax)
-          }
-      </script>
+          };
 
-      <script>
           lax.addPreset("myCoolPreset", function() {
-              return {
-                  "data-lax-opacity": "(-vh*0.8) 40, (-vh*0.6) 0",
-                  "data-lax-rotate": "(-vh*2) 1000, (-vh*0.5) 0"
-              }
+            return {
+              "data-lax-opacity": "(-vh*0.8) 40, (-vh*0.6) 0",
+              "data-lax-rotate": "(-vh*2) 1000, (-vh*0.5) 0"
+            }
           })
+
       </script>
 
   </body>
